@@ -9,11 +9,10 @@
     background-color: #132222;
     color: white;
        display: inline-block;
-      
-    /* multiple divs ko aik line me karne ke lie display flex ka use karenge */
+
     display: flex; 
     align-items: center;
-    gap: 50px; /* for adding gap */
+    gap: 50px;
 }
 .nav-logo{
     height: 50px;
@@ -113,18 +112,17 @@ span{
 .panel{
     height: 40px;
     background-color: #222f3d;
-    /* same line pr laane ke lie main container ko display flex krdenge */
+  
     display: flex;  
     color: white;
-    /* spacing ke lie sab se pehle vertically align krenge */
-    align-items: center; /*To allign content vertically*/
-    justify-content: space-evenly; /*spacing karne ke lie*/
+   
+    align-items: center;
+    justify-content: space-evenly; 
 }
-/* paragraph tags ko aik hi line pr lane ke lie display inline krdenge */
+
 .panel-ops p{
     display: inline; 
     font-size: 0.85rem;
-    /* sare options me gap dene ke lie margin denge from left */
     margin: 15px;
 }
 .panel-all:hover{
@@ -153,15 +151,12 @@ span{
 }
 /* Shop section */
 .shop-section{
-    /* aik line pr lane ke liye display flex krdenge us div ko jisme ye sare divs hn */
   display: flex;  
-  /* 4 boxes ko alg alg line pr lane ke lie flax wrap krenge*/
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #e1bcbc;
 }
 .b{
-    /* border: 2px solid black; */
     height: 350px;
     width: 23%;
     background-color: white;
@@ -205,13 +200,11 @@ span{
     background-color: #222f3d;
     color: white;
     height: 250px;
-    /* single row me lane ke lie hum parent container ko display flex krdenge */
     display: flex;
     justify-content: space-evenly;
     padding-top: 40px;
 
 }
- /* to organize anchor tags line by line we will give it display block*/
  .foot-panel2 ul a{
     display: block;
     color: #dddddd;
